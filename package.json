@@ -18,6 +18,7 @@
   "author": "sherylynn",
   "license": "MIT",
   "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
     "babel-cli": "^6.8.0",
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
@@ -26,6 +27,8 @@
     "eslint": "^4.3.0",
     "eslint-plugin-react": "^7.1.0",
     "html-loader": "^0.5.1",
+    "source-map-loader": "^0.2.1",
+    "typescript": "^2.5.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.7.1"
   },
