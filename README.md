@@ -1,2 +1,2 @@
 # echarts
-echarts for myself
+echarts write in typescript for myself
