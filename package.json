@@ -1,0 +1,39 @@
+{
+  "name": "echarts",
+  "version": "0.0.1",
+  "description": "echarts for myself",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "start": "node_modules/.bin/webpack --watch",
+    "build": "node_modules/.bin/webpack --config webpack.config.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherylynn/echarts.git"
+  },
+  "keywords": [
+    "echarts"
+  ],
+  "author": "sherylynn",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "html-loader": "^0.5.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^2.30.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sherylynn/echarts/issues"
+  },
+  "homepage": "https://github.com/sherylynn/echarts#readme"
+}
